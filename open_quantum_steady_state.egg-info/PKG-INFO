@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: open-quantum-steady-state
+Version: 0.1.0
+Summary: Python reimplementation of the variational neural-network ansatz for steady states in open quantum systems.
+Requires-Python: >=3.7

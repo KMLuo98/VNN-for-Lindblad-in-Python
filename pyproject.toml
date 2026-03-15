@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "open-quantum-steady-state"
+version = "0.1.0"
+description = "Python reimplementation of the variational neural-network ansatz for steady states in open quantum systems."
+requires-python = ">=3.7"
+dependencies = [
+    "numpy>=1.17",
+    "scipy>=1.7",
+]
+
+[tool.setuptools.packages.find]
+include = ["open_quantum_steady_state*"]
